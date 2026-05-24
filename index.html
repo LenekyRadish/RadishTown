@@ -1,30 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <title>RadishTown/Home</title>
+    <meta content="Just a silly site" name="description" />
+
+    <!-- Setting character encoding and viewport size. Do not remove. -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RadishTown</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FavIcon (small image in tab), change to any image you want: -->
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- CSS: -->
+    <!-- You will have to change this to "../style.css" if this HTML file is in a subfolder, to "../../style.css" if this HTML file is in 2 subfolders, etc. -->
+    <link href="./style.css" rel="stylesheet" />
+    
+
+    <script>
+      // Template generated with petrapixel's layout generator.
+      // (Please do not remove this credit.)
+      console.log("%cTemplate generated with petrapixel's layout generator: https://petrapixel.neocities.org/coding/layout-generator", "font-size: 14pt; color: #922a45; background: #ffd3ef");
+    </script>
   </head>
-  <body style="text-align: center;">
-    <h1>Welcome to RadishTown!</h1>
+  <body>
+    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+    <a href="#content" id="skip-to-content-link">Skip to content</a>
 
-    <p>Everyone deserves to have a little corner of the internet to call their own, so here is mine!</p>
+    <div class="layout">
+  
+      <!-- =============================================== -->
+      <!-- HEADER -->
+      <!-- =============================================== -->
+
+      <header>
+
+        <div class="header-content">
+	        <div class="header-title">Welcome to RadishTown!</div>
+	        
+	        <!-- NAVIGATION -->
+	        <nav>
+	          <ul>
+	            <li><a href="/">Home</a></li>
+	            <li><a href="/blogDisplay.html">Blog</a></li>
+	          </ul>
+	        </nav>
+        	
+        </div>
+      </header>
+      <main id="content"> <!-- Do NOT remove the ID here -->
+
+        
+
+        <!-- =============================================== -->
+        <!-- MAIN CONTENT -->
+        <!-- =============================================== -->
 
 
-    <h1>
-        All About Me <3
-    </h1>
-    <p>
-        Hey! I'm just another teen who loves to code, and has quite a bit of fondness for the "old" internet.
-        As I spent more and more time doing school and extracirriculars though, 
-        I realized I was spending more and more time
-        away from doing art, and that made me kind of sad, to be honest.
-        To solve such a horrid problem, I thought it would be a splendid idea to carve out
-        a corner of the internet just for me, and fill it with the things I love!
-        So, I hope you like it! And if you don't, that's a you problem.
-    </p>
-    <p>A few of the things I spend my time doing include:</p>
+        <section>
+
+          <h1>Hey!</h1>
+          <p>
+            Welcome to my site! I'm just another teen who loves to code, and has quite a bit of fondness for the "old" internet.
+            As I spent more and more time doing school and extracirriculars though, 
+            I realized I was spending more and more time
+            away from doing art, and that made me kind of sad, to be honest.
+            To solve such a horrid problem, I thought it would be a splendid idea to carve out
+            a corner of the internet just for me, and fill it with the things I love!
+            So, I hope you like it!
+          </p>
+             <p>A few of the things I spend my time doing include:</p>
         <ul style="display: inline-block; text-align: left;">
             <li>Programming</li>
             <li>Chemistry Research</li>
@@ -32,12 +76,22 @@
             <li>Painting</li>
             <li>Reading</li>
             </ul>
-    <p>...and more!</p>
-    <h2>My Guestbook</h2>
-    <hr>
-    <a href="#afterguestbook" class="skiplink" aria-hidden="true" alt="">
-        Skip guestbook iFrame</a><div id="beforeguestbook"></div>
-        <iframe aria-label="Guestbook" id="guestbook" src="https://users3.smartgb.com/g/g.php?a=s&i=g36-41402-f7" loading="lazy">
-        </iframe><div id="afterguestbook"></div><a href="#beforeguestbook" class="skiplink" aria-hidden="true" alt="">Skip to before guestbook iFrame</a>
+        <p>...and more!</p>
+            <h2>My Guestbook</h2>
+            <p>Say something nice! Rude/inapporopirate messages will be moderated.</p>
+            <hr>
+                <iframe aria-label="Guestbook" id="guestbook" src="https://users3.smartgb.com/g/g.php?a=s&i=g36-41402-f7" loading="lazy" width="600" height="400" style="display: block; margin: 0 auto;"></iframe>        </section>
+      </main>
+
+
+      <!-- =============================================== -->
+      <!-- FOOTER -->
+      <!-- =============================================== -->
+
+      <footer>
+            <div>Thank you oh so much to petrapixel for the amazing site layout generator! <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's layout generator</a>.</div>
+      </footer>
+  
+    </div>
   </body>
 </html>
