@@ -3,7 +3,7 @@ This is my lttle site!
 
 Sharing source code on the internet to allow others to be inspired is pretty dang cool, so if all goes well, I'm sharing mine here!
 
-I do want to say that I did in fact use a layout generator created by petrapixel for the styling, since I am still not really a pro at CSS. 
+I do want to say that I did in fact use a layout generator created by petrapixel for a fairly large portion the styling, since I am still not really a pro at CSS. 
 It's truly amazing that tools like this one are out there purely to help others, and if you want to make a site of your own, head on over to
 https://petrapixel.neocities.org/coding/layout-generator yourself!
 
