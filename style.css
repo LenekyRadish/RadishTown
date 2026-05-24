@@ -104,6 +104,15 @@ main {
   border: var(--border);
   border-radius: var(--round-borders);
 }
+/* Writings Block */
+.writing-entry {
+    border: 2px solid rgb(12, 72, 17);
+    margin: 15px;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(255, 192, 192, 0.801);
+}
+
 
 /* -------------------------------------------------------- */
 /* HEADER */
@@ -130,65 +139,6 @@ header {
 .header-image img {
   width: 100%;
   height: auto;
-}
-
-/* -------------------------------------------------------- */
-/* SIDEBARS */
-/* -------------------------------------------------------- */
-
-aside {
-  grid-area: aside;
-  border: var(--border);
-  border-radius: var(--round-borders);
-  overflow: hidden;
-  background: var(--sidebar-background-color);
-  padding: var(--padding);
-  color: var(--sidebar-text-color);
-}
-
-.left-sidebar {
-  grid-area: leftSidebar;
-}
-
-.right-sidebar {
-  grid-area: rightSidebar;
-}
-
-.sidebar-title {
-  font-weight: bold;
-  font-size: 1.2em;
-  font-family: var(--heading-font);
-}
-
-.sidebar-section:not(:last-child) {
-  margin-bottom: 3em;
-}
-
-.sidebar-section ul,
-.sidebar-section ol {
-  padding-left: 1.5em;
-}
-
-.sidebar-section > *:not(p):not(ul):not(ol):not(blockquote) {
-  margin-top: 10px;
-}
-
-/* Sidebar Blockquote: */
-
-.sidebar-section blockquote {
-  background: rgba(0, 0, 0, 0.1);
-  padding: 15px;
-  margin: 1em 0;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.sidebar-section blockquote > *:first-child {
-  margin-top: 0;
-}
-
-.sidebar-section blockquote > *:last-child {
-  margin-bottom: 0;
 }
 
 /* Site Button: */
@@ -298,38 +248,6 @@ header nav ul li:first-child > a {
 }
 
 header nav ul li:last-child > a {
-  padding-right: 0;
-}
-
-/* Subnavigation (Drop-Down): */
-
-header nav ul ul {
-  background: var(--content-background-color);
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 10px;
-  padding: 0.5em;
-  z-index: 1;
-  border: var(--border);
-  min-width: 100%;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
-}
-
-header nav ul li:hover ul,
-header nav ul li:focus-within ul {
-  display: block;
-}
-
-header nav ul li strong {
-  color: var(--link-color);
-  text-decoration: underline;
-  font-weight: normal;
-}
-
-header nav ul ul li a {
-  display: block;
-  padding-left: 0;
   padding-right: 0;
 }
 
@@ -540,17 +458,12 @@ main h6 {
     /* Super amazing tutorial on the grid https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
   }
 
-  
-  .right-sidebar { 
-    display: none;
-  }
 
   aside {
     border-bottom: 1px solid;
     padding: 9px;
     font-size: 0.9em;
   }
-
   
   nav {
     padding: 0;
