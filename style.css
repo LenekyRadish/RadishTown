@@ -530,12 +530,6 @@ body {
   margin: 0;
 }
 
-img,
-video,
-iframe {
-  max-width: 100%;
-}
-
 .carousel-inner {
   overflow: hidden;
   position: relative;
