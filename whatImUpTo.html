@@ -14,7 +14,7 @@
         <!-- CSS: -->
         <!-- You will have to change this to "../style.css" if this HTML file is in a subfolder, to "../../style.css" if this HTML file is in 2 subfolders, etc. -->
         <link href="./style.css" rel="stylesheet" />
-
+      
   </head>
 
   <body>
@@ -62,6 +62,65 @@
           <ul>
             <li> You can now listen the music I listen to (well, the previews at least) on <a href="/musicPage.html">Music Street!</a></li>
           </ul>
+
+          <hr>
+
+          <style>
+            .site-container {
+              max-width: 800px;
+              margin: 0 auto;
+              padding: 2em;
+            }
+          </style>
+          
+          <h2>
+            Photodump!
+          </h2>
+          <p class="carousel-description">
+            Photos of stuff, such as projects I've been working on, or really whatever else I want.
+          </p>
+          <div class="site-container">
+            <div id="carousel-1" class="carousel" role="region" aria-labelledby="carousel-1-title">
+              <div class="slide" role="tabpanel" aria-labelledby="carousel-1-slide-1-title">
+                <div class="slide-content">
+                  <div class="slide-caption">
+                    <h3 id="carousel-1-slide-1-title">Dice Rolling Graph</h3>
+                    <p>I coded this in python using Pygal so that you enter the number of sides on
+                      each die and the times rolled, and it gives you the frequencies!
+                    </p>
+                  </div>
+          
+                  <img src="./images/photodump/Dice_Rolling_graph.png" alt="Dice Rolling" width="800" height="350" />
+                </div>
+              </div>
+          
+              <div class="slide" role="tabpanel" aria-labelledby="carousel-1-slide-2-title">
+                <div class="slide-content">
+                  <div class="slide-caption">
+                    <h3 id="carousel-1-slide-2-title">Random Walk Graph</h3>
+                    <p>
+                      I coded this in python using MatPlotLib so, for a given amount of points, the x and y distance travelled
+                      in each "step" is random and can either be positive or negative, and it looks really cool! </p>
+                  </div>
+                  <img src="./images/photodump/Random_walk.png" alt="Manali Mountains" width="800" height="350" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <script src="carousel.js"></script>
+          <script>
+            const carousel1 = JSCarousel({
+            carouselSelector: "#carousel-1",
+            slideSelector: ".slide",
+            enablePagination: true,
+            enableAutoplay: false,
+          });
+    
+          carousel1.create();
+          </script>
+
+    
+
         </main>
             <footer>
             <div style="text-align: center;">
