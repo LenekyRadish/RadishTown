@@ -468,6 +468,27 @@ main h6 {
 
 /* CSS Code for devices < 800px */
 @media (max-width: 800px) {
+  :root{
+    /* My Carousel Stuff */
+    --carousel-height: 400px;
+    --carousel-radius: 0.5em;
+    --carousel-nav-btn-dim: 3em;
+    --carousel-page-nav-btn-dim: 0.5em;
+    --carousel-caption-padding: 2em;
+    --carousel-caption-color: #ffffff;
+    --carousel-caption-bg: linear-gradient(
+      to bottom,
+      transparent,
+      hsla(0, 0%, 0%, 0.59) 50%
+    );
+    --carousel-inner-spacing: 0.75em;
+    --carousel-prev-next-btn-bg: #2e5f2b;
+    --carousel-prev-next-btn-color: #c4eec6;
+    --carousel-pagination-margin: 1em;
+    --carousel-pagination-gap: 0.75em;
+    --carousel-pagination-btn-bg: #467945;
+    --carousel-pagination-btn-active-bg: #274226;
+  }
   body {
     font-size: 14px;
   }
