@@ -42,7 +42,7 @@
   --carousel-caption-bg: linear-gradient(
     to bottom,
     transparent,
-    hsla(0, 0%, 0%, 0.59) 50%
+    hsla(0, 0%, 0%, 0.605) 55%
   );
   --carousel-inner-spacing: 2em;
   --carousel-prev-next-btn-bg: #2e5f2b;
